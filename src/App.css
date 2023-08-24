@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+}
+
+#root{
+  border-radius: 20px;
+  border-bottom-right-radius: 30%;
+  padding: 30px 40px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.inputBx{
+  margin: 10px;
+  color: hsl(0, 1%, 44%);
+  margin-bottom: 30px;
+}
+
+.inputBx label{
+  margin-bottom: 5px;
+  font-size: 14px;
+  letter-spacing: .2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.inputBx input{
+  outline: none;
+  width: 130px;
+  font-size: 25px;
+  letter-spacing: .08rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid hsl(0, 0%, 86%);
+}
+
+.inValid input{
+  border: 1px solid hsl(0, 100%, 67%);
+}
+
+.inValid label{
+  color: hsl(0, 100%, 67%);
+}
+
+.inValid span{
+  display: block;
+  font-size: 10px;
+  color: hsl(0, 100%, 67%);
+  margin-top: 5px;
+}
+
+.inputBx input:hover,
+.inputBx input:focus{
+  border-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+
+.lineBx{
+  position: relative;
+  margin-top: 15px;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(0, 1%, 86%);
+}
+
+.lineBx button{
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  padding: 10px;
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  border-radius: 50%;
+}
+
+.lineBx button:hover{
+  background-color: hsl(0, 0%, 8%);
+}
+
+.textBx{
+  margin-top: 30px;
+  font-size: 70px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.textBx span:nth-child(1){
+  margin-right: 10px;
+  color: hsl(259, 100%, 65%);
+  letter-spacing: .1rem;
+}
